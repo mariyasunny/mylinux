@@ -1,0 +1,65 @@
+* { 
+  font-family: 'Times New Roman', Times, serif; 
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  }
+body{
+  background: url(../assets/images/amb.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }  
+  h1{  
+  font-family: 'Times New Roman', Times, serif; 
+  font-weight :3em
+}
+header{ 
+  background-color: #333;
+  color:#fff;
+  margin: 0%;
+  padding: 0px 0px 0px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:1rem;
+}
+.navbar, section .navbar { 
+  color:#000000;
+  padding: 10px 500px 10px 50px; 
+  font-weight: bold;
+  font-size: 1.25em; 
+  word-spacing: 3rem; 
+  letter-spacing: normal; 
+} 
+.navbar a, a:link { 
+  text-decoration:none; 
+  color :#fffeee; 
+} 
+main{ 
+ color :#000000; 
+ text-indent: 1.5em;
+ font-weight:bold;
+ text-align: center;
+ word-break:normal;
+ line-height:2em;
+ font-size: 1.5em;
+ padding: 50px;
+ font-family: Georgia, 'Times New Roman'; 
+} 
+ .sp {
+ font-weight: bold;
+ font-size: 2em;
+color:#ff0000; 
+ } 
+ footer{
+ background-color: #333;
+ text-align: center;
+ color: #fff;
+ padding: 50px
+ }
+.btn:link {
+color:ff0000;
+}
